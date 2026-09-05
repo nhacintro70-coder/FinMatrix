@@ -69,7 +69,7 @@ const ControlGroup = ({ icon: Icon, label, value, onChange, min, max, step, form
 export default function App() {
   const [initialAmount, setInitialAmount] = useState(0);
   const [monthlyContribution, setMonthlyContribution] = useState(200000);
-  const [contributionIncreaseRate, setContributionIncreaseRate] = useState(5);
+  const [contributionIncreaseRate, setContributionIncreaseRate] = useState(0);
   const [interestRate, setInterestRate] = useState(6);
   const [inflationRate, setInflationRate] = useState(3.5);
   const [years, setYears] = useState(30);
